@@ -1,19 +1,19 @@
 import React from "react"
 import './main.css'
 
-function About() {
+function Main() {
 	return (
-		<section className='about'>
-			<div className='about__bg'></div>
+		<section className='main'>
+			<div className='main__bg'></div>
 			<div className='container'>
-				<h1 className='about__title'>
+				<h1 className='main__title'>
 					Приветствую!
 					<br />
 					Я Свириденко Дмитрий
 					<br />
-					Junior Frontend Разработчик
+					Junior Frontend - разработчик
 				</h1>
-				<div className='about__description'>
+				<div className='main__description'>
 					<p>
 						Учился профессии JavaScript React разработчик на Hexlet.io
 					</p>
@@ -29,4 +29,4 @@ function About() {
 };
 
 
-export default About;
+export default Main;
