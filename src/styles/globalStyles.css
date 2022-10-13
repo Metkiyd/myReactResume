@@ -6,6 +6,12 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	background-color: gray;
+	-ms-overflow-style: none; /* IE and Edge */
+	scrollbar-width: none; /* Firefox */
+}
+
+body::-webkit-scrollbar {
+	display: none;
 }
 
 code {
@@ -22,7 +28,7 @@ code {
 }
 
 .content {
-	width: 1024px;
+	max-width: 1024px;
 	padding: 0;
 	margin: 0 auto;
 

@@ -7,23 +7,32 @@ function Portfolio() {
 		<div className='portfolio'>
 			<div className='container'>
 				<div className="content">
-					{works.map((work, id) => (
-						<a
-							href={work.link}
-							className='portfolio-item'
-							key={id}
-						>
-						<div className='portfolio-item__title'>
-							{work.title}
+					<div className="portfolio__content">
+						<div className="portfolio__title">
+							<h2>Ознакомьтесь с моими работами</h2>
 						</div>
-						<div className='portfolio-item__title'>
-							{work.description}
+						<div className="portfolio__items">
+							{works.map((work, id) => {
+								return(
+								<a
+									href={work.link}
+									className='portfolio-item'
+									key={id}
+								>
+								<div className='portfolio-item__title'>
+									{work.title}
+								</div>
+								<div className='portfolio-item__title'>
+									{work.description}
+								</div>
+								<div className='portfolio-item__title'>
+									{work.stack}
+								</div>
+								<img alt={work.title} layout="responsive" placeholder="blur" src={work.image} />
+								</a>)
+								})};
 						</div>
-						<div className='portfolio-item__title'>
-							{work.stack}
-						</div>
-						</a>
-					))}
+					</div>
 				</div>
 			</div>
 		</div>

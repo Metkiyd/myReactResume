@@ -1,0 +1,27 @@
+.skills__item {
+    padding: 20px;
+}
+.skills__description {
+    display: flex;
+    flex-wrap: wrap;
+}
+.skills, .education, .work {
+    display: flex;
+}
+.resume__title {
+    min-width: 192px;
+}
+.resume__item {
+    padding-left: 20px;
+}
+.resume__position {
+    font-style: italic;
+    font-weight: 500;
+}
+.item-add {
+    column-gap: 10px;
+    display: flex;
+}
+.item__title {
+    margin-bottom: 0;
+}

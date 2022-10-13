@@ -1,1 +1,18 @@
-
+.about {
+    background-color: rgb(49, 38, 22);
+}
+.my-image {
+    border-radius: 40px;
+    height: 350px;
+}
+.about__content {
+    display: flex;
+}
+.interests__item {
+    display: flex;
+    column-gap: 10px;
+    padding-top: 5px;
+}
+.about__info {
+    padding-left: 50px;
+}
