@@ -13,10 +13,3 @@
 	font-size: 18px;
 	font-weight: bold;
 }
-
-.header__nav-item:hover {
-	color: #868686;
-	cursor: pointer;
-	display: inline;
-	transition: all 0.4s cubic-bezier(0.1, 0.82, 0.76, 0.96);
-}

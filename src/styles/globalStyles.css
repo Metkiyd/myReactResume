@@ -5,7 +5,7 @@ body {
 		sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	background-color: gray;
+	background-color: rgb(55 75 80);
 	-ms-overflow-style: none; /* IE and Edge */
 	scrollbar-width: none; /* Firefox */
 }
@@ -20,7 +20,7 @@ code {
 }
 
 .app {
-	color: white;
+	color: rgb(240, 240, 240);
 }
 
 .container {
@@ -38,8 +38,16 @@ a {
 	color: inherit;
 	text-decoration: inherit;
 }
+a:hover {
+	color: rgb(220, 130, 85);
+	cursor: pointer;
+	transition: all 0.3s;
+}
 
 svg {
 	height: 20px;
 	width: 20px;
+}
+dd {
+	margin: 0;
 }

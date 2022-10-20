@@ -1,0 +1,81 @@
+.contactForm__container {
+	padding: 96px 32px 0;
+}
+.contact__content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.contact__title {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.contact__block {
+    display: flex;
+    font-size: 20px;
+    gap: 40px;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    min-width: 500px;
+}
+textarea {
+    min-height: 200px;
+}
+.form-item {
+    padding: 15px;
+    background-color: rgba(30, 33, 39, 0.4);
+    border-radius: 10px;
+    border-width: 0;
+    resize: vertical;
+}
+.form-button {
+    width: max-content;
+    border-radius: 9999px;
+    border: 2px solid;
+    padding: 10px 15px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgba(30, 33, 39, 0.4);
+    color: white;
+    cursor: pointer;
+    display: flex;
+    gap: 10px;
+}
+.contacts-title {
+    margin-top: 0;
+}
+.contact-span {
+    margin-left: 10px;
+}
+.mail-svg {
+    width: 40px;
+    height: 60px;
+}
+.nav-button {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.form-button:hover {
+	color: rgb(220, 130, 85);
+	cursor: pointer;
+	transition: all 0.3s;
+}
+.nav-ring {
+    background-color: white;
+    color: black;
+    border-radius: 9999px;
+    padding: 5px;
+}
+.arrow {
+    width: 30px;
+    height: 25px;
+}
+.phone-ico {
+    height: 23px;
+    width: 23px;
+}

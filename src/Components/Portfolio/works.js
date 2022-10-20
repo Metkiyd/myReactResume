@@ -1,9 +1,9 @@
 import portfolioImage1 from '../../images/portfolioWorks/1.png';
 import portfolioImage2 from '../../images/portfolioWorks/2.png';
-import portfolioImage3 from '../../images/portfolioWorks/3.png';
+import portfolioImage6 from '../../images/portfolioWorks/6.png';
 import portfolioImage4 from '../../images/portfolioWorks/4.png';
 import portfolioImage5 from '../../images/portfolioWorks/5.png';
-import portfolioImage6 from '../../images/portfolioWorks/6.png';
+import portfolioImage3 from '../../images/portfolioWorks/3.png';
 
 const works = [
 	{
@@ -30,7 +30,7 @@ const works = [
 		description: 'Третий проект',
 		link: '#',
 		stack: ['react', 'redux', 'scss'],
-		image: portfolioImage3,
+		image: portfolioImage6,
 	},
 	{
 		id: 'spa-4',
@@ -54,7 +54,7 @@ const works = [
 		description: 'Шестрой проект',
 		link: '#',
 		stack: ['react', 'redux', 'scss'],
-		image: portfolioImage6,
+		image: portfolioImage3,
 	}
 ]
 export default works
