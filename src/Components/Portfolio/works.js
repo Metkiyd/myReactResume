@@ -9,9 +9,9 @@ const works = [
 	{
 		id: 'spa-1',
 		title: 'SPA #1',
-		description: 'Первый проект',
-		link: '#',
-		stack: ['react', 'redux', 'scss'],
+		description: 'Тестовое задание, сверстать главную страницу сайта по картинке',
+		link: 'https://metkiyd.github.io/testAssignment/',
+		stack: ['react', 'BEM', 'scss'],
 		image: portfolioImage1,
 		
 	},

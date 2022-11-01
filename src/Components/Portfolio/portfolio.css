@@ -4,11 +4,12 @@
 }
 .portfolio {
   background-color: rgb(40 75 40);
+  background-image: linear-gradient(rgb(49 75 63), rgb(40 75 40)15%, rgb(40 75 40) 85%, rgb(49 75 63));
 }
 .portfolio__content {
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 30px;
 }
 
 .portfolio__title-head {
@@ -21,8 +22,17 @@
   column-count: 3;
 
 }
+@media(max-width: 960px) {
+  .portfolio__items {
+    column-count: 2;
+  
+  }
+  
+  
+}
 .img-size {
   width: -webkit-fill-available;
+  display: block;
 }
 .items-rounded {
   box-shadow: 5px 10px 10px 0px rgb(0 0 0 / 30%);

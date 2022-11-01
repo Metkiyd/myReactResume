@@ -1,13 +1,15 @@
 .about {
     background-color: rgb(45 40 30);
+    background-image: linear-gradient(rgb(45 40 30) 80%, rgb(48 52 48));
 }
 .my-image {
     border-radius: 20px;
     height: 350px;
 }
-.about__content, .work {
+.about__content {
     display: flex;
 }
+
 .interests__item {
     display: flex;
     column-gap: 10px;
@@ -19,4 +21,14 @@
 
 .about__title {
     margin-top: 0;
+}
+@media(max-width: 640px) {
+    .about__content {
+      flex-direction: column;
+    }
+    .about__info {
+        padding-left: 0;
+    }
+    
+    
 }
