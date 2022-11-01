@@ -9,8 +9,8 @@ const works = [
 	{
 		id: 'spa-1',
 		title: 'SPA #1',
-		description: 'Тестовое задание, сверстать главную страницу сайта по картинке',
-		link: 'https://metkiyd.github.io/testAssignment/',
+		description: 'Тестовое задание, сверстать главную страницу сайта по картинке (без макета Figma)',
+		link: 'https://github.com/Metkiyd/testAssignment',
 		stack: ['react', 'BEM', 'scss'],
 		image: portfolioImage1,
 		
@@ -20,7 +20,7 @@ const works = [
 		id: 'spa-2',
 		title: 'SPA #2',
 		description: 'Второй проект',
-		link: '#',
+		link: 'https://github.com/Metkiyd/myReactResume',
 		stack: ['react', 'redux', 'scss'],
 		image: portfolioImage2,
 	},
