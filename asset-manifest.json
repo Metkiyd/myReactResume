@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/Metkiyd/myReactResume/static/css/main.b1c36ec5.css",
-    "main.js": "/Metkiyd/myReactResume/static/js/main.cd8536fe.js",
-    "static/js/787.bc9ecdee.chunk.js": "/Metkiyd/myReactResume/static/js/787.bc9ecdee.chunk.js",
-    "static/media/background.png": "/Metkiyd/myReactResume/static/media/background.96e959e6d13d4c0618ba.png",
-    "static/media/avatar.png": "/Metkiyd/myReactResume/static/media/avatar.74750cd5ac407c961248.png",
-    "static/media/3.png": "/Metkiyd/myReactResume/static/media/3.bcd9465877372852e101.png",
-    "static/media/5.png": "/Metkiyd/myReactResume/static/media/5.d36f515b18c5e7cf820d.png",
-    "static/media/4.png": "/Metkiyd/myReactResume/static/media/4.a3b5d2727425cd505cc6.png",
-    "static/media/6.png": "/Metkiyd/myReactResume/static/media/6.a32c7bf00f7ed8d3be44.png",
-    "static/media/1.png": "/Metkiyd/myReactResume/static/media/1.50073dafaad362f9a752.png",
-    "static/media/2.png": "/Metkiyd/myReactResume/static/media/2.c7f1e316807e9aebb984.png",
-    "index.html": "/Metkiyd/myReactResume/index.html",
-    "main.b1c36ec5.css.map": "/Metkiyd/myReactResume/static/css/main.b1c36ec5.css.map",
-    "main.cd8536fe.js.map": "/Metkiyd/myReactResume/static/js/main.cd8536fe.js.map",
-    "787.bc9ecdee.chunk.js.map": "/Metkiyd/myReactResume/static/js/787.bc9ecdee.chunk.js.map"
+    "main.css": "/Metkiyd/static/css/main.b1c36ec5.css",
+    "main.js": "/Metkiyd/static/js/main.c31d0298.js",
+    "static/js/787.bc9ecdee.chunk.js": "/Metkiyd/static/js/787.bc9ecdee.chunk.js",
+    "static/media/background.png": "/Metkiyd/static/media/background.96e959e6d13d4c0618ba.png",
+    "static/media/avatar.png": "/Metkiyd/static/media/avatar.74750cd5ac407c961248.png",
+    "static/media/3.png": "/Metkiyd/static/media/3.bcd9465877372852e101.png",
+    "static/media/5.png": "/Metkiyd/static/media/5.d36f515b18c5e7cf820d.png",
+    "static/media/4.png": "/Metkiyd/static/media/4.a3b5d2727425cd505cc6.png",
+    "static/media/6.png": "/Metkiyd/static/media/6.a32c7bf00f7ed8d3be44.png",
+    "static/media/1.png": "/Metkiyd/static/media/1.50073dafaad362f9a752.png",
+    "static/media/2.png": "/Metkiyd/static/media/2.c7f1e316807e9aebb984.png",
+    "index.html": "/Metkiyd/index.html",
+    "main.b1c36ec5.css.map": "/Metkiyd/static/css/main.b1c36ec5.css.map",
+    "main.c31d0298.js.map": "/Metkiyd/static/js/main.c31d0298.js.map",
+    "787.bc9ecdee.chunk.js.map": "/Metkiyd/static/js/787.bc9ecdee.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b1c36ec5.css",
-    "static/js/main.cd8536fe.js"
+    "static/js/main.c31d0298.js"
   ]
 }
