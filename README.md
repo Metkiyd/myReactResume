@@ -3,5 +3,5 @@
 По этой ссылке вы можете ознакомиться с проектом и узнать обо мне подробнее.
 
 <h1>
-  <a href="https://metkiyd.github.io/myReactResume/">LIVE DEMO</a>
+  <a href="https://my-react-resume-metkiyd.vercel.app/">LIVE DEMO</a>
 </h1>
