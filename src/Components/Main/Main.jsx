@@ -1,7 +1,7 @@
 import React from "react"
 import Fade from 'react-reveal/Fade';
 import './main.css'
-import mainImage from '../../images/background.png';
+import mainImage from '../../images/background.webp';
 
 function Main() {
 	return (

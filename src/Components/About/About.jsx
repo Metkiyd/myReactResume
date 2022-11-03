@@ -1,7 +1,7 @@
 import React from "react"
 import Fade from 'react-reveal/Fade';
 import './about.css'
-import myAvatar from '../../images/avatar.png'
+import myAvatar from '../../images/avatar.webp'
 
 function About() {
 	return (
@@ -11,7 +11,7 @@ function About() {
 					<div className="about__content">
 						<Fade left duration={800} delay={400} distance="30px">
 							<div className="about__image">
-							<img className='my-image' alt="avatarImage" width='280' height='350' placeholder="blur" src={myAvatar}></img>
+							<img className='my-image' alt="avatarImage" width='283' height='350' placeholder="blur" src={myAvatar}></img>
 							</div>
 						</Fade>
 						<Fade right duration={800} delay={800} distance="30px">

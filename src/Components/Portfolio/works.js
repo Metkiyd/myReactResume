@@ -1,9 +1,9 @@
-import portfolioImage1 from '../../images/portfolioWorks/1.png';
-import portfolioImage2 from '../../images/portfolioWorks/2.png';
-import portfolioImage6 from '../../images/portfolioWorks/6.png';
-import portfolioImage4 from '../../images/portfolioWorks/4.png';
-import portfolioImage5 from '../../images/portfolioWorks/5.png';
-import portfolioImage3 from '../../images/portfolioWorks/3.png';
+import portfolioImage1 from '../../images/portfolioWorks/1.webp';
+import portfolioImage2 from '../../images/portfolioWorks/2.webp';
+import portfolioImage6 from '../../images/portfolioWorks/6.webp';
+import portfolioImage4 from '../../images/portfolioWorks/4.webp';
+import portfolioImage5 from '../../images/portfolioWorks/5.webp';
+import portfolioImage3 from '../../images/portfolioWorks/3.webp';
 
 const works = [
 	{
@@ -19,9 +19,9 @@ const works = [
 	{
 		id: 'spa-2',
 		title: 'SPA #2',
-		description: 'Второй проект',
+		description: 'Моё резюме',
 		link: 'https://github.com/Metkiyd/myReactResume',
-		stack: ['react', 'redux', 'scss'],
+		stack: ['react'],
 		image: portfolioImage2,
 	},
 	{
