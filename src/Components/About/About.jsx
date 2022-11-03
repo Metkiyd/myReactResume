@@ -11,7 +11,7 @@ function About() {
 					<div className="about__content">
 						<Fade left duration={800} delay={400} distance="30px">
 							<div className="about__image">
-							<img className='my-image' alt="avatarImage" src={myAvatar}></img>
+							<img className='my-image' alt="avatarImage" width='280' height='350' placeholder="blur" src={myAvatar}></img>
 							</div>
 						</Fade>
 						<Fade right duration={800} delay={800} distance="30px">

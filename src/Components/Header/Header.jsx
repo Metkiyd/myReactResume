@@ -37,7 +37,7 @@ const MobileNavigation = () => {
 		<>
 			<div className='mobile-navigation'>
 				<Fade top duration={800} delay={400}>
-					<button className={isOpen ? "menu-button focus" : 'menu-button'} onClick={()=> setIsOpen(!isOpen)}>
+					<button className={isOpen ? "menu-button focus" : 'menu-button'} aria-label="menu" onClick={()=> setIsOpen(!isOpen)}>
 						<svg className="menu-ico" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
 							<circle cx="5" cy="6" fill="none" r="1" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"></circle>
 							<circle cx="5" cy="16" fill="none" r="1" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"></circle>

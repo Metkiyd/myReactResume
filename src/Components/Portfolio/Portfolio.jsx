@@ -34,7 +34,7 @@ function Portfolio() {
 												<div className='portfolio-item__title'>
 													{work.stack}
 												</div> */}
-												<img className="img-size" alt={work.title} layout="responsive" placeholder="blur" src={work.image} />
+												<img className="img-size" alt={work.title} layout="responsive" loading="lazy" placeholder="blur" src={work.image} />
 												</a>
 											</div>
 										</div>

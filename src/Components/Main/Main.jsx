@@ -7,7 +7,7 @@ function Main() {
 	return (
 		<section className='main' id="main">
 			<div className='main__bg'>
-				<img className='background-image' alt="backgroundImage" src={mainImage}></img>
+				<img className='background-image' alt="backgroundImage" width='1280' height='720' placeholder="blur" src={mainImage}></img>
 			</div>
 			<Fade left duration={800} delay={800} distance="30px">
 				<div className='main__container'>
@@ -70,7 +70,7 @@ function Main() {
 			</Fade>
 			<Fade bottom duration={800} delay={800}>
 				<div className="nav-button">
-					<a className="nav-ring" href="/#about">
+					<a className="nav-ring" aria-label="show-more" href="/#about">
 						<svg className="arrow" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
 							<path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"></path>
 						</svg>
