@@ -4,12 +4,7 @@
 .contactForm__container {
 	padding: 96px 32px 0;
 }
-@media(max-width: 640px) {
-    .contactForm__container {
-        padding: 64px 16px 0;
-    }
-    
-  }
+
 .contact__content {
     display: flex;
     flex-direction: column;
@@ -63,6 +58,15 @@ textarea {
     cursor: pointer;
     display: flex;
     gap: 10px;
+}
+@media(max-width: 640px) {
+    .contactForm__container {
+        padding: 64px 16px 0;
+    }
+    .form-button {
+
+        padding: 5px 10px;
+    }
 }
 .contacts-title {
     margin-top: 0;
