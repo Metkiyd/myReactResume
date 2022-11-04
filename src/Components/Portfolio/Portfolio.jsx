@@ -16,14 +16,15 @@ function Portfolio() {
 						</Fade>
 						<Fade bottom duration={800} delay={800} distance="30px">
 							<div className="portfolio__items">
-								{works.map((work, id) => {
+								{works.map((work, index) => {
+									const {title, image} = work;
 									return(
 										<div className="padding-b">
 											<div className="items-rounded">
 												<a
 													href={work.link}
 													className='portfolio-item'
-													key={id}
+													key={`${title}-${index}`}
 												>
 												{/* <div className='portfolio-item__title'>
 													{work.title}
@@ -34,7 +35,7 @@ function Portfolio() {
 												<div className='portfolio-item__title'>
 													{work.stack}
 												</div> */}
-												<img className="img-size" alt={work.title} layout="responsive" loading="lazy" placeholder="blur" src={work.image} />
+												<img className="img-size" alt={title} layout="responsive" loading="lazy" placeholder="blur" src={image} />
 												</a>
 											</div>
 										</div>

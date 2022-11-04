@@ -40,6 +40,7 @@ textarea {
     min-height: 200px;
 }
 .form-item {
+    color: white;
     padding: 15px;
     background-color: rgba(30, 33, 39, 0.4);
     border-radius: 10px;

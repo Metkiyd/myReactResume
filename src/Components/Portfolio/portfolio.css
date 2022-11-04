@@ -19,12 +19,12 @@
  padding-bottom: 15px;
 }
 .portfolio__items {
-  column-count: 3;
+  column-count: 2;
 
 }
-@media(max-width: 960px) {
+@media(max-width: 640px) {
   .portfolio__items {
-    column-count: 2;
+    column-count: 1;
   
   }
   
