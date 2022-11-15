@@ -8,7 +8,7 @@ import portfolioImage3 from '../../images/portfolioWorks/3.webp';
 const works = [
 	{
 		title: 'test',
-		description: 'Тестовое задание, сверстать главную страницу сайта по картинке (без макета Figma)',
+		description: 'Тестовое задание в компанию Sagirov, сверстать главную страницу сайта по картинке (без макета Figma)',
 		link: 'https://github.com/Metkiyd/testAssignment',
 		stack: ['react', 'BEM', 'scss'],
 		image: portfolioImage1,
@@ -20,14 +20,14 @@ const works = [
 		link: 'https://github.com/Metkiyd/myReactResume',
 		stack: ['react', 'BEM', 'scss'],
 		image: portfolioImage2,
+	},
+	{
+		title: 'SPA 3',
+		description: 'Тестовое задание на стажировку: Новостной канал с отображением последних 100 новостей',
+		link: 'https://github.com/Metkiyd/avito-tech',
+		stack: ['react', 'redux', 'scss'],
+		image: portfolioImage3,
 	}
-	// {
-	// 	title: 'SPA 3',
-	// 	description: 'Третий проект',
-	// 	link: '#',
-	// 	stack: ['react', 'redux', 'scss'],
-	// 	image: portfolioImage6,
-	// },
 	// {
 	// 	title: 'SPA 4',
 	// 	description: 'Четвертый проект',

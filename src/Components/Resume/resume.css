@@ -3,10 +3,11 @@
 }
 .skills__item {
     display: flex;
-    padding: 20px;
+    padding: 10px;
     flex-direction: column;
     align-items: center;
     gap: 10px;
+    min-width: 110px;
 }
 .skills__item:hover {
 	color: rgb(220, 130, 85);
@@ -16,6 +17,7 @@
 .skills__description {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .resume__block {
